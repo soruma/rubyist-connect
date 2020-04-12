@@ -10,7 +10,7 @@ gem 'jquery-rails'
 
 gem 'coffee-rails'
 gem 'sass-rails'
-gem 'bootstrap-sass'
+gem 'bootstrap'
 gem 'font-awesome-rails'
 gem 'autoprefixer-rails'
 gem 'slim-rails'
