@@ -16,7 +16,6 @@ gem 'autoprefixer-rails'
 gem 'slim-rails'
 gem 'redcarpet'
 gem 'kaminari'
-gem 'kaminari-bootstrap'
 gem 'page_title_helper'
 
 # Authorization
