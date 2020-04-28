@@ -15,17 +15,20 @@
     .form-group
       = f.label :twitter_name
       .input-group
-        span.input-group-addon @
+        .input-group-prepend
+          span.input-group-text @
         = f.text_field :twitter_name, class: 'form-control'
     .form-group
       = f.label :facebook_name
       .input-group
-        span.input-group-addon https://www.facebook.com/
+        .input-group-prepend
+          span.input-group-text https://www.facebook.com/
         = f.text_field :facebook_name, class: 'form-control'
     .form-group
       = f.label :qiita_name
       .input-group
-        span.input-group-addon https://qiita.com/
+        .input-group-prepend
+          span.input-group-text https://qiita.com/
         = f.text_field :qiita_name, class: 'form-control'
     .form-group
       = f.label :name
