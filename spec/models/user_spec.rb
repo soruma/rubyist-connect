@@ -80,7 +80,7 @@ describe User do
     end
     it '年齢が自動計算されること' do
       user = User.new(birthday: '1981/1/16')
-      expect(user.age).to eq 31
+      expect(user.age).to eq 30
     end
 
     it '生年月日が入力されていなければnilが返って来ること' do
